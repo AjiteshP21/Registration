@@ -1,0 +1,75 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+   text-align: center;
+   margin: 10px;
+   font-size: 20px;
+   color: red;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1877f2;
+    /*background-color: #f0f0f0;*/
+}
+
+.Box {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #f0f2f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.Class {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    margin-top: 20px;
+    padding: 14px 16px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
